@@ -1,0 +1,25 @@
+.cart__left_delivery{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    background-color:var(--lwhite);
+    border-radius: 9px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cart__left__delivery_content{
+    padding: 10px 0px;
+    scale: .9;
+}
+.cart__left__delivery_button{
+    padding: 10px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart__left__delivery_button> *{
+    
+    scale: .8;
+   
+}

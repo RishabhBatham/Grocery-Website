@@ -1,0 +1,7 @@
+.topcomponent__container{
+    z-index: -1;
+  position: relative;
+}
+.topcomponent__container img{
+margin-bottom: -4.5px;
+}

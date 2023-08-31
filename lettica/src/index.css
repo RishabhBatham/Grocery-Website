@@ -1,0 +1,194 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root{
+  --green:#7C9070;
+  --lgreen:#3a9b03;
+  --dgreen:#41644A;
+  --red:#FF8787;
+  --textcolor:#1C6758;
+  --black:rgb(24, 24, 24);
+  --white:rgb(240, 240, 240);
+  --lwhite:#eeeeee;
+  --gray:rgb(119, 118, 118);
+  --lblack:rgb(122, 121, 121);
+  --lgray:rgb(199, 199, 199);
+  --dred:rgb(255 65 82);
+  --lblack2:rgb(44, 44, 44);
+  --themegreen:darkslategray;
+  --themered:#4a4545;   /*  --themered:#8f4d4d; */
+  --themecream:#FEF4E8;
+  --themeblue:#8CA4E2;
+
+
+
+  --font_alma:'Almarai', sans-serif;
+  --font_sarala:'Sarala', sans-serif;
+  --font_dongle:'Dongle';
+}
+
+.headstyle{
+  color: var(--green);
+  font-family: 'Playfair Display';
+  letter-spacing: 1;
+  font-weight: 500;
+  font-size: 20px;
+}
+.headstyle2{
+  color: var(--green);
+  font-family: var(--font_alma);
+  letter-spacing: 1;
+  font-weight: 500;
+  font-size: clamp(1rem, 2.5vw, 1.6rem);
+}
+.flexcc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading1{
+  font-family: var(--font_alma);
+
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: clamp(.7rem, 2.5vw, 1.8rem);
+}
+.heading2{
+  font-family: var(--font_alma);
+
+  color: rgb(0, 0, 0);
+  font-weight: 530;
+  font-size: clamp(.7rem, 2.5vw, 1.3rem);
+}
+.heading2w{
+  font-family: var(--font_alma);
+
+  color: rgb(238, 238, 238);
+  font-weight: 530;
+  font-size: clamp(.7rem, 2.5vw, 1.3rem);
+}
+.heading2g{
+  font-family: var(--font_alma);
+
+  color: var(--dgreen);
+  font-weight: 530;
+  font-size: clamp(.7rem, 2.5vw, 1.3rem);
+}
+
+.regularbutton1{
+padding-left: clamp(5px, 2.5vw, 10px);
+padding-right: clamp(5px, 2.5vw, 10px);
+padding-top: clamp(4px, 2.5vw, 6px);
+padding-bottom: clamp(4px, 2.5vw, 6px);
+  font-size: clamp(10px, 2.5vw, 15px);
+  background: #48cb1d14;
+  color: var(--red);
+  background-color: var(--white);
+  border: 2px solid var(--red);
+  border-radius: 9px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+ 
+}
+.regularbutton2{
+  padding-left: clamp(5px, 2.5vw, 10px);
+  padding-right: clamp(5px, 2.5vw, 10px);
+  padding-top: clamp(4px, 2.5vw, 6px);
+  padding-bottom: clamp(4px, 2.5vw, 6px);
+    font-size: clamp(10px, 2.5vw, 15px);
+    background: #48cb1d14;
+    color: var(--red);
+    background-color: #505050;
+    color: white;
+   
+    border-radius: 9px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+   
+  }
+.heading3{
+  font-family:var(--font_sarala);
+
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: clamp(.7rem, 2.5vw, 1.1rem);
+}
+.heading3w{
+  font-family: 'Sarala', var(--font_sarala);
+
+  color: rgb(214, 214, 214);
+  font-weight: 400;
+  font-size: clamp(.7rem, 2.5vw, 1rem);
+}
+.subheading1{
+  font-family: 'Sarala', var(--font_sarala);
+
+  color: var(--lwhite);
+  font-weight: 400;
+  font-size: clamp(.5rem, 2.5vw, .8rem);
+}
+.subheading2{
+  font-family: 'Sarala', var(--font_sarala);
+
+  color: var(--gray);
+  font-weight: 400;
+  font-size: clamp(.7rem, 2.5vw, 1rem);
+}
+.subheading2midw{
+  font-family: 'Sarala', var(--font_sarala);
+
+  color: rgb(94, 90, 90);
+  font-weight: 400;
+  font-size: clamp(.7rem, 2.5vw, 1rem);
+}
+.subheading3{
+  font-family: 'Sarala', var(--font_sarala);
+
+  color: var(--lblack);
+  font-weight: 500;
+  font-size: clamp(.5rem, 2.5vw, .8rem);
+}
+.subheading4{
+  font-family: 'Sarala', var(--font_sarala);
+
+  color: var(--lwhite);
+  font-weight: 500;
+  font-size: clamp(.65rem, 2.5vw, .95rem);
+}
+.subheading3g{
+  font-family: 'Sarala', var(--font_sarala);
+
+  color: var(--lgreen);
+  font-weight: 500;
+  font-size: clamp(.5rem, 2.5vw, .8rem);
+}
+.subheading4r{
+  font-family: 'Sarala', var(--font_sarala);
+
+  color: var(--dred);
+  font-weight: 500;
+  font-size: clamp(.65rem, 2.5vw, .95rem);
+}
+
+

@@ -1,0 +1,13 @@
+.cart__right_bill{
+    padding: 20px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart__right_billtext > *{
+    margin: 5px 0px;
+}
+.cart__right_billmoney > *{
+    margin: 5px 0px;
+}

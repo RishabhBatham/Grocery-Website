@@ -1,0 +1,29 @@
+.scroll3__padding{
+    padding: 10px;
+    padding-top: 0px;
+    
+}
+
+.scrollcomp3__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+
+    margin: 0px;
+
+
+    
+}
+.scrollcomp3__keys{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--lwhite);
+    padding-right: 10px;
+    width: 103%;
+    position: absolute;
+    top: 135px;
+    margin-left: -3px;
+}

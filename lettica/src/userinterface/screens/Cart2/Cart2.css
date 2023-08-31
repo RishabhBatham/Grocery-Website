@@ -1,0 +1,21 @@
+.Cart2__container{
+    background-color: #F4FFF7;
+}
+.cart2__cart2products{
+    padding: 0% 0%;
+    display: flex;
+    justify-content: center;
+}
+.cart2__heading{
+    padding-left: 50px;
+    padding-top: 51px;
+}
+.cart2__cart2bill{
+    background-color: #f2ffdb;
+}
+@media(max-width:400px){
+    .cart2__heading{
+        padding-left: 20px;
+        padding-top: 2s1px;
+    }
+}

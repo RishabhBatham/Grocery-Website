@@ -1,0 +1,35 @@
+.product__container{
+    border-right: 1px solid rgb(190, 190, 190);
+     /*  border-top: 1px solid rgb(190, 190, 190); */
+     padding: 5%;
+    height: 600px;
+    margin-bottom: 20px;
+ }
+
+ .product__topgrid__heading{
+     padding: 2px 0px;
+     font-family: 'Sarala', sans-serif;
+     font-size: 17px;
+     color: rgb(0, 0, 0);
+     font-weight: 500;
+ }
+ .product__topgrid__subheading{
+  
+     font-family: 'Sarala', sans-serif;
+     font-size: 14px;
+     color: rgb(97, 97, 97);
+     font-weight: 200;
+ }
+ .product__topgrid_title{
+     padding: 2px 0px;
+     font-family: 'Sarala', sans-serif;
+     font-size: 19px;
+     color: rgb(14, 14, 14);
+     font-weight: 600;
+ }
+ @media(max-width:900px){
+     .product__container{
+         border-right: 0px solid rgb(190, 190, 190);
+     }
+ }
+    

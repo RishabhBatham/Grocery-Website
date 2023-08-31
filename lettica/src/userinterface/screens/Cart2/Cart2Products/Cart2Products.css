@@ -1,0 +1,133 @@
+.cart2__products__container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 3%;
+}
+.cart2__products__container > *{
+    margin: 10px;
+}
+
+.cart2__product__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1.9px solid black;
+    border-radius: 8px;
+    width: clamp(300px,43vw,500px);
+    height:clamp(90px,13vw,150px);
+    align-items: center;
+}
+.cart2__product_image{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    
+}
+.cart2__product_image img {
+    padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 10px;
+    max-width: 60px;
+    max-height: 60px;
+}
+.cart2__product_image p{
+text-align: center;
+font-family: 'Dongle';
+color: rgb(0, 0, 0);
+font-weight: 400;
+font-size: clamp(.7rem, 2.5vw, 1.5rem);
+line-height: .7;
+
+
+
+}
+.cart2__product__divider{
+    width: 1px;
+    height: 70%;
+    background-color: gray;
+    height:clamp(50px,7.8vw,75px);
+}
+.cart2__product__price{
+    display: flex;
+}
+.cart2__product__price p,s{
+    text-align: center;
+font-family: 'Dongle';
+color: rgb(56, 56, 56);
+font-weight: 400;
+font-size: clamp(.7rem, 2.5vw, 1.36rem);
+line-height: .7;
+margin: 2px;
+
+}
+.cart2__product__price h6{
+    text-align: center;
+    font-family: var(--font_alma);
+    color: rgb(56, 56, 56);
+    font-weight: 400;
+    font-size: clamp(.6rem, 1.8vw, 1.06rem);;
+    line-height: .7;
+    margin: 2px;
+}
+.cart2__product__content{
+    margin-left: 10px;
+}
+.cart2__product__content > * {
+ margin: 4px;
+}
+.cart2__product__quantity{
+    text-align: center;
+    font-family: 'Dongle';
+    color: rgb(56, 56, 56);
+    font-weight: 400;
+    font-size: clamp(.7rem, 2.5vw, 1.36rem);
+    line-height: .7;
+    text-align: left;
+}
+.cart2__product__save{
+    text-align: center;
+    font-family: 'Dongle';
+    color: #59a53e;
+    font-weight: 400;
+    font-size: clamp(.7rem, 2.5vw, 1.36rem);
+    line-height: .7;
+    text-align: left;
+}
+
+
+@media(max-width:1250px){
+    .cart2__product__container{
+        scale: .8;
+    }
+    .cart2__products__container > *{
+        margin: 3px;
+    }
+}
+@media(max-width:890px){
+  .cart2__products__container{
+    padding: 0;
+  }
+}
+@media(max-width:697px){
+  
+    .cart2__products__container{
+        padding-left: 60px;
+      }
+}
+@media(max-width:450px){
+    .cart2__products__container{
+        padding-left: 20px;
+      }
+}
+@media(max-width:390px){
+    .cart2__products__container{
+        padding-left: 0px;
+      }
+}

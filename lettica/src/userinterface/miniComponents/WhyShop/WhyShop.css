@@ -1,0 +1,34 @@
+.product__gridright__bot_content{
+    padding: 10px 0px;
+}
+.product__gridright__bot_contentitem{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.product__gridright__bot_contentitem > *{
+    padding: 10px;
+}
+/* .product__gridright__bot__contentitem_text p{
+    font-family: 'Sarala', sans-serif;
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+} */
+
+.product__gridright__bot_heading p{
+    padding: 10px 0px;
+    font-family: 'Sarala', sans-serif;
+}
+.product__gridright__bot_whyshop p{
+    padding: 10px 0px;
+    font-family: 'Sarala', sans-serif;
+  
+}
+
+
+
+.product__topgrid__content > *{
+    margin: 10px 0px;
+}

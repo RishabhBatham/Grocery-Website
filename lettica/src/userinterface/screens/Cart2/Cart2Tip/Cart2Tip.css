@@ -1,0 +1,26 @@
+.cart2tip__container{
+    background-color: #F8E6B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0%;
+}
+.cart2tip__heading{
+    width: 90%;
+}
+.cart2tip__btns{
+   width: 60%;
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cart2__button{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid olivedrab;
+    
+}

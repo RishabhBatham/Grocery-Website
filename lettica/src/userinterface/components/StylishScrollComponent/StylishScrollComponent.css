@@ -1,0 +1,13 @@
+.stylishscrollcomponent__container{
+    background-color: #F8FAF1;
+    
+ 
+}
+
+.stylishscrollcomponent__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10px;
+    align-items: center;
+}

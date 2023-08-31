@@ -1,0 +1,34 @@
+.cart2bill__container{
+    margin-top: 40px;
+    
+    padding-bottom: 30px;
+}
+
+
+.cart2bill__heading{
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #747474;
+   height: 65px;
+}
+.cart2bill__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.cart2bill__content_line{
+    width: 54%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.cart2bill__divider{
+    width: 60%;
+    height: 2px;
+    background-color: #444444;
+}

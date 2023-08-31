@@ -1,0 +1,133 @@
+.appbar{
+    background-color: #fff;
+    position: relative; z-index: 20;
+}
+.header__logo{
+    /* style={{color:'#000',fontFamily:'Playfair Display',letterSpacing:1,fontWeight:500,fontSize:'20px'}} */
+    color:var(--green);
+    font-family: 'Playfair Display';
+    letter-spacing: 1;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #fff;
+    margin-left: -15px;
+    padding: 3px 20px;
+    border-radius: 14px;
+    scale: .85;
+
+}
+.header__logo img{
+    width:  90px;
+    scale: .97;
+}
+.headermain{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 95%;
+}
+.header__icons{
+    color: var(--green);
+}
+.header__icons >*{
+    padding: 0px;
+}
+.header__cart{
+    margin-left: 10px;
+  
+    
+    
+}
+.header__searchbar{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+}
+.header__search{
+    border: none;
+    padding: 4px 0;
+    width: clamp(100px,32vw,400px);
+    padding-left: clamp(0%,2.5vw,30%);
+    padding-right: clamp(0%,2.5vw,30%);
+    border: none;
+    border-radius: 14px;
+    border-bottom: 1.4px solid var(--green);
+    margin: 0px 10px;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 10px 20px;
+}
+.header__search:focus{
+ border: none;
+}
+.header__searchbar__icon svg{
+ width: clamp(18px,3vw,20px);
+height: clamp(18px,3vw,20px);
+padding-left: 5px;
+}
+
+@media(300px<=width<=485px){
+    .header__searchbar {
+        margin-left: -44px;
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media(min-width:1050px){
+
+}
+
+
+@media(max-width:1050px){
+    .header__icons >*{
+        padding: 5px;
+    }
+}
+
+@media(max-width:650px){
+ .header__logo{
+    font-size: 17px;
+ }
+
+ .header__searchbar{
+    display: none;
+}
+
+.header__icons{
+    margin-left: auto;
+}
+
+
+.header__icons >*{
+    padding: 3px;
+}
+.header__icons{
+    display: none;
+}
+.headermain{
+    width: 100%;
+}
+.header__logo{
+  
+    margin-left: -30px;
+    padding: 5px 33px;
+    
+    scale: .6;
+}
+
+}
+

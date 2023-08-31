@@ -1,0 +1,56 @@
+.listcomponent__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+
+
+
+.listcomponent__img{
+    
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+   
+    background-color: #48cb1d14;
+    margin: 10px 20px;
+}
+.listcomponent__img img{
+    width: 40px;
+}
+.listcomponent__box{
+    border-right: 1px solid #80808057;
+    padding: 10% 2%; 
+    position: sticky;
+    top :0px;
+    left: 0px;
+
+    
+}
+.listcomponent__p{
+    color: var(--textcolor);
+    padding: 0px 20px;
+}
+
+
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+}
+
+.cardcontainer > * {
+    margin: 10px;
+}
+.cardcontainer_p{
+    color: var(--green);
+    font-family: 'Playfair Display';
+    letter-spacing: 1;
+    font-weight: 500;
+    font-size: 20px;
+}
